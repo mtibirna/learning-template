@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th,
+td {
+    border-bottom: 1px solid oklch(92.8% 0.006 264.531);
+    padding: 8px;
+    padding-right: 24px;
+    text-align: left;
+}
+
+button {
+    background-color: oklch(82.8% 0.189 84.429);
+    border: 0.5px solid oklch(66.6% 0.179 58.318);
+    border-radius: 4px;
+    padding: 4px 8px 4px 8px;
+    color: oklch(27.9% 0.041 260.031);
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+button.table-button {
+    margin-top: 24px;
+}
+
+button.modal-button {
+    margin-top: 8px;
+}
+
+button:hover {
+    background: oklch(87.9% 0.169 91.605);
+}
+
+dialog {
+    border: 1px solid oklch(87.2% 0.01 258.338);
+    border-radius: 8px;
+}
+
+.modalElement {
+    margin-bottom: 14px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.modal-label {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.modal-control {
+    width: 240px;
+}
+
+.modal-control input {
+    width: 100%;
+    border: 1px solid oklch(92.8% 0.006 264.531);
+    border-radius: 5px;
+    height: 24px;
+    padding: 2px;
+    color: oklch(27.8% 0.033 256.848);
+}
+
+input::placeholder {
+    color: oklch(70.7% 0.022 261.325);
+}
